@@ -1,0 +1,40 @@
+.container {
+  padding: 20px;
+  width: 100%;
+}
+
+.search__container {
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+}
+
+.search__container input {
+  width: 75%;
+  height: 38px;
+  border: none;
+  padding: 10px 30px;
+  font-size: 20px;
+}
+
+.search__container button {
+  width: 20%;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  background-color: black;
+  color: aliceblue;
+}
+
+.search__container button:hover {
+  background-color: rgb(61, 61, 61);
+  cursor: pointer;
+}
+
+.movie__container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 10px 50px;
+}

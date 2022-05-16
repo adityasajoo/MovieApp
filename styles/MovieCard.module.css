@@ -1,0 +1,58 @@
+.movie__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 200px;
+  margin: 0 25px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+  cursor: pointer;
+}
+.title__container {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(199, 194, 194);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+
+  text-align: center;
+  color: rgb(58, 58, 58);
+  font-weight: 600;
+}
+
+.poster__container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+}
+.poster {
+  width: 100%;
+  height: auto;
+}
+
+.rating {
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  bottom: -15px;
+  right: 3px;
+  background-color: rgb(48, 47, 47);
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

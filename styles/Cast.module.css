@@ -1,0 +1,27 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  text-align: center;
+  margin: 10px 20px;
+  padding: 0;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+  /* overflow: hidden; */
+}
+.profile img {
+  width: 100px;
+}
+
+.profile p{
+    margin: 0;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
